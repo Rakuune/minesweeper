@@ -1,0 +1,39 @@
+{
+    "exit_menu": {
+        "question_text": {
+            "font": "bold",
+            "text": "Do you want to play again?"
+        },
+        "button1": {
+            "bg": "grey",
+            "font": "bold",
+            "height": "2",
+            "text": "New Game",
+            "width": "30"
+        },
+        "button2": {
+            "bg": "grey",
+            "font": "bold",
+            "height": "1",
+            "text": "Exit Game",
+            "width": "10"
+        }
+    },
+    "create_menu": {
+        "title": {
+            "bg": "grey",
+            "fg": "black",
+            "font": "bold",
+            "height": "2",
+            "text": "Minesweeper",
+            "width": "500"
+        },
+        "button": {
+            "bg": "grey",
+            "font": "bold",
+            "height": "2",
+            "text": "Start Game",
+            "width": "30"
+        }
+    }
+}
