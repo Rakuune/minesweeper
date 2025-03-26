@@ -48,13 +48,16 @@ def create_menu(target, command1, command2, command3):
     inputs = create_input_fields(target)
     for i, input_field in enumerate(inputs, 1):
         input_field.place(x=80, y=100*i)
+
     Label(target, text="Enter grid width.").place(x=80, y=70)
     Label(target, text="Enter grid height.").place(x=80, y=170)
     Label(target, text="Enter number of mines.").place(x=80, y=270)
+
     create_large_button(target, command1).place(x=80, y=360)
     create_large_button(target, command2, text="Statistics").place(x=80, y=420)
     create_large_button(target, command3, text="Exit").place(x=80, y=480)
     target.mainloop()
+    
     return inputs
 
 def handle_menu(target, menu):

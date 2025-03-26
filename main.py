@@ -45,7 +45,7 @@ def draw_handler():
         y_coord = y_index * 40 
         for x_index, key in enumerate(row):
             x_coord = x_index * 40
-            hv.add_drawable_tile(key, x_coord, y_coord)
+            hv.add_tile_to_draw(key, x_coord, y_coord)
     hv.draw_tiles()
 
 def count_mines(grid, x, y):

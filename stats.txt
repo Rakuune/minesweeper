@@ -1,0 +1,18 @@
+Date: 26/03/2025 04:47:23
+Time: 0 min 58 s
+Moves: 0
+Result: Loss
+Size: 10x10 with 1 mines
+
+Date: 26/03/2025 04:48:31
+Time: 0 min 2 s
+Moves: 2
+Result: Loss
+Size: 10x10 with 1 mines
+
+Date: 26/03/2025 04:48:31
+Time: 0 min 2 s
+Moves: 3
+Result: Loss
+Size: 10x10 with 10 mines
+
